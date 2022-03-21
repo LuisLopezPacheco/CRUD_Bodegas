@@ -8,15 +8,7 @@
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>
             <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">    
                 <form method="POST">
-                    @csrf <!-- Seguridad Token -->        
-                  {{--   $this->nombre = '';
-                    $this->pais = '';
-                    $this->estado = '';
-                    $this->municipio = '';
-                    $this->colonia = '';
-                    $this->calle = '';
-                    $this->num_establecimiento = '';
-                    $this->descripcion = ''; --}}
+                    @csrf 
                     <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                         <div class="mb-4">
                             <label for="nombre" class="block text-gray-700 text-sm font-bold mb-2">Nombre:</label>
